@@ -78,12 +78,12 @@ async def test_feel():
     await tts_action.execute()
 
 async def test_play_expression():
-    block: PlayExpression = PlayExpression(express_name="codemao9")
+    block: PlayExpression = PlayExpression(express_name="codemao8")
     await block.execute() 
 
 async def test_sneeze(): # sneeze
     """Execute a sneeze action."""
-    block = PlayExpression(express_name='codemao9')
+    block = PlayExpression(express_name='codemao8')
     await block.execute()
 
 async def main():
